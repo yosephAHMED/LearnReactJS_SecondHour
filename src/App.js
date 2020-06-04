@@ -1,10 +1,16 @@
 import React from "react";
 import ContactCard from "./components/ContactCard";
 import Joke from "./components/Joke";
+// import jokesData from "./jokesData"
 
 function App() {
+  
+  // const jokeComponents = jokesData.map(joke => <Joke key={joke.id} question={joke.question}
+  // punchLine={joke.punchLine} />)
+
   return (
     <>
+      {/*{jokeComponents}*/}
       <div className="contacts">
         <h2>Task 1: ContactCard component</h2>
         <ContactCard 
