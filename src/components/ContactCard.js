@@ -1,3 +1,4 @@
+// Task 1: Contact card component that receives props and displays them
 import React from "react";
 
 function ContactCard(props) {
