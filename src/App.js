@@ -51,6 +51,11 @@ function App() {
           question="Did you hear about the claustrophobic astronaut?" 
           punchLine="He just needed a little space."
         />
+
+        {/* extra credit */}
+        <Joke 
+          punchLine="Testing my extra credit. LOL!"
+        />
   
       </div>
     </>
